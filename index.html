@@ -1,7 +1,611 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Rashmi's Portfolio">
+    <meta name="author" content="Devcrud">
+    <title>Rashmi's Portfolio</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Steller main styles -->
+	<link rel="stylesheet" href="assets/css/steller.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#timeline">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#timeline">Education</a>
+                    </li>    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>               
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testmonial">Recommendation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificates">Certificates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="- btn btn-primary rounded ml-4" href="components.html">Copmonents</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>          
+    </nav>
+    <!-- End of page navigation -->
+
+    <!-- Page Header -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="infos">
+                <h6 class="subtitle">Hello, I'm</h6>
+                <h6 class="title">Rashmi Shree Veeraiah</h6>
+                <p>MS Data Analytics, SJSU'24</p>
+
+                <div class="buttons pt-3">
+                    <!-- <button class="btn btn-primary rounded">HIRE ME</button> -->
+                    <button class="btn btn-dark rounded" onclick="openResume()">Download My Resumé</button>
+                </div>      
+
+                <div class="socials mt-4">
+                    <a class="social-item" href="https://www.linkedin.com/in/rashmishreev/" target="_blank"><i class="ti-linkedin"></i></a>
+                    <!-- <a class="social-item" href="https://medium.com/@rashmishree.veeraiah" target="_blank"><i class="ti-medium"></i></a> -->
+                    <a class="social-item" href="https://github.com/rashmishreev" target="_blank"><i class="ti-github"></i></a>
+                    <!-- <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a> -->
+                </div>
+            </div>              
+            <div class="img-holder">
+                <img src="assets/imgs/work.jpeg" alt="">
+            </div>      
+        </div>  
+
+        <!-- Header-widget -->
+        <!-- <div class="widget">
+            <div class="widget-item">
+                <h2>124</h2>
+                <p>Happy Clients</p>
+            </div>
+            <div class="widget-item">
+                <h2>456</h2>
+                <p>Project Completed</p>
+            </div>
+            <div class="widget-item">
+                <h2>789</h2>
+                <p>Awards Won</p>
+            </div>
+        </div> -->
+    </header>
+    <!-- End of Page Header -->
+    
+    <!-- About section -->
+    <section id="about" class="section mt-3">
+        <div class="container mt-5">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3">
+                    <img src="assets/imgs/io.jpeg" alt="" class="img-thumbnail mb-4">
+                </div>
+                <div class="pl-md-4 col-md-9">
+                    <h6 class="title">Rashmi Shree Veeraiah</h6>
+                    <p class="subtitle">MS Data Analytics</p>
+                    <p>I'm a Data Analytics Major at San José State University and I'm passionate about discovering insights from data and exploring Data Science, Analytics, Machine Learning, Large Language Models, and AI. </p>
+                    <p>I bring a wealth of diverse industry experience, with a background in Software Development within FinTech, Application Development, Data Science, and Analytics in the cybersecurity sector, coupled with a rewarding stint in academia as an educator.</p>
+                    <p>Outside of my academic and professional commitments, I enjoy being in nature—whether by the ocean, under the sky, or in the mountains. I'm that rare individual who negotiates the delicate alliance between being a dog and a cat person – a furry diplomat if you will! I like tackling challenges and learning new things.</p>
+                    <button class="btn btn-primary rounded mt-3" onclick="openResume()">View my Resumé</button>                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="section">
+        <div class="container text-center">
+            <h6 class="section-title mb-4">Skills</h6>
+            <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
+            <div class="row text-left">
+                <div class="col-sm-6">
+                    <b>Languages and Packages:</b> Python, MySQL, Scikit-Learn, Scipy, Pandas, Numpy
+                </div>
+                <div class="col-sm-6">
+                    <b>Data Visualisation:</b> DOMO, Tableau, Excel, Seaborn, Matplotlib, Plotly
+                </div>
+                <div class="col-sm-6">
+                    <b>Database and Cloud:</b>Neo4j, MongoDB, Glue, Redshift, PySpark, AWS
+                </div>
+                <div class="col-sm-6">
+                    <b>Development Tools:</b> Git, Jira, Salesforce, Jupyter
+                </div>
+                <div class="col-sm-6">
+                    <b>Machine Learning and AI:</b> Classification, Regression, Clustering, Time-Series, Sentiment Analysis, Natural Language Processing, Prompt Engineering
+                </div>
+            </div>  
+        </div>
+    </section>
+    <!-- End of Skills sections -->
+
+    <section id="timeline">
+        <div class="container text-center"><h6 class="section-title mb-4">Education & Experience</h6></div>
+        <ul class="timeline">
+            <!-- Item 1 -->
+            <li>
+            <div class="direction-l"><span class="time">Jul 2016 - Jul 2020</span></div>
+              <div class="direction-r">
+                <div class="flag-wrapper">
+                  <span class="hexa"></span>
+                  <span class="flag">Bachelors in Information Technology</span>
+                  <div style="font-weight: bold;"><a href="https://christuniversity.in/campus/Bangalore%20Kengeri%20Campus" target="_blank">Christ University</a>
+                </div>
+                </div>
+                <div class="desc"> 
+                   <!--  <ul>  -->
+                       <!--  <li> -->Coursework: Data Structures and Algorithms, Database Management Systems, Operating Systems, Data Warehousing and Data Mining, AI, NLP <!-- </li> -->
+                       <!-- li> Internships </li>
+                       <li> Publication:  </li> -->
+                    <!-- </ul> -->
+              </div>
+            </li>
+          
+            <!-- Item 2 -->
+            <li>
+            <div class="direction-r"><span class="time">Mar 2021 - Aug 2022</span></div>
+              <div class="direction-l">
+                <div class="flag-wrapper">
+                  <span class="hexa"></span>
+                  <span class="flag">Software Development Engineer</span>
+                  <div style="font-weight: bold;"><a href="https://www.fisglobal.com/en" target="_blank">Fidelity Information Services</a></div>
+                </div>
+                <!-- <div class="desc">Lorem ipsum In ut sit in dolor nisi ex magna eu anim anim tempor dolore aliquip enim cupidatat laborum dolore.</div> -->
+              </div>
+            </li>
+          
+            <!-- Item 3 -->
+            <li>
+            <div class="direction-l"><span class="time">Aug 2022 - May 2024</span></div>
+              <div class="direction-r">
+                <div class="flag-wrapper">
+                  <span class="hexa"></span>
+                  <span class="flag">Masters in Data Analytics</span>
+                  <div style="font-weight: bold;"><a href="https://www.sjsu.edu/" target="_blank">San José State University</a></div>
+                </div>
+                <div class="desc">Coursework: Mathematical Methods for Data Analytics, Database Management Systems, Data Visualisation, Big Data, Machine Learning, Deep Learning Technologies, Data Mining.</div>
+              </div>
+            </li>
+
+            <!-- Item 4 -->
+            <li>
+            <div class="direction-r"><span class="time">May 2023 - August 2023</span></div>
+                <div class="direction-l">
+                  <div class="flag-wrapper">
+                    <span class="hexa"></span>
+                    <span class="flag">Customer Success-Data Analytics Intern, Business Intelligence</span>
+                    <div style="font-weight: bold;"><a href="https://www.illumio.com/" target="_blank">Illumio</a></div>
+                  </div>
+<!--                   <div class="desc">Lorem ipsum Minim labore Ut cupidatat quis qui deserunt proident fugiat pariatur cillum cupidatat reprehenderit sit id dolor consectetur ut.</div>
+ -->                </div>
+              </li>
+
+              <!-- Item 5 -->
+            <li>
+                <div class="direction-l"><span class="time">Oct 2023 - Present</span></div>
+                  <div class="direction-r">
+                    <div class="flag-wrapper">
+                      <span class="hexa"></span>
+                      <span class="flag">Executive IT Co-ordinator, SJSU NSLS Chapter</span>
+                      <div style="font-weight: bold;"><a href="https://www.nsls.org/" target="_blank">The National Society of Leadership and Success (NSLS)</a></div>
+                    </div>
+<!--                     <div class="desc">Coursework: Mathematical Methods for Data Analytics, Database Management Systems, Data Visualisation, Big Data, Machine Learning, Deep Learning Technologies, Data Mining.</div>
+ -->                  </div>
+                </li>
+
+          </ul>
+        </section>
+    
+
+    <!-- Experience section -->
+    <!-- <section id="experience" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Experience</h6>
+            <h6 class="section-title mb-4">My Professional Background</h6>
+            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-crown"></i>
+                            <h5>UI/UX Design</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-desktop"></i>
+                            <h5>Web Design</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-mobile"></i>
+                            <h5>App Design</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-bar-chart"></i>
+                            <h5>SEO</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- End of Sectoin -->
+
+    <!-- Education section -->
+    <!-- <section id="education" class="section">
+        <div class="container text-center">
+            <h6 class="section-title mb-4">Education</h6>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <img src="assets/imgs/sjsu.jpeg" alt="" class="card-img-top w-100">
+                            <h5>San José State University</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <img src="assets/imgs/christ.jpeg" alt="" class="card-img-top w-100">
+                            <h5>Christ (Deemed to be) University</h5>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section> -->
+    <!-- End of Section -->
+
+    
+    <!-- Project Section -->
+    <section id="projects" class="section">
+        <div class="container text-center">
+            <!-- <h6 class="subtitle">My Blogs</h6> -->
+            <h6 class="section-title mb-4">Projects</h6>
+            <p class="mb-5 pb-4">Explore the projects I've undertaken both as part of my coursework and driven by personal curiosity for continuous learning.</p>
+
+            <div class="row text-left">
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/dbms.png" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">DynamicSkill Insights: A Data-Driven Solution for Adapting to Evolving Job Markets</h5>
+                            <div class="post-details">
+                                <!-- <a href="javascript:void(0)">Posted By: Admin</a> -->
+                                <a href="https://drive.google.com/file/d/1Qv6vIYWyxqEHQvFobr5tFyE1V9TzTRRa/view?usp=drive_link" target="_blank"><i class="ti-file"></i> Report </a>
+                                <a href="https://github.com/rashmishreev/Empowering-job-seekers-with-information-beyond-the-job-description" target="_blank"><i class="ti-github"></i> Github </a>
+                                <a href="https://drive.google.com/file/d/1o9srs-N52hqlmQUzC_1oEgcD46sIyzYE/view?usp=drive_link" target="_blank"><i class="ti-medall"></i> Award</a>
+                                <a href="https://medium.com/@rashmishree.veeraiah/empowering-job-seekers-in-the-market-with-information-above-and-beyond-the-stated-job-description-d0f98c753a4f" target="_blank"><i class="ti-pencil"></i> Blog</a>
+                            </div>
+                            <p>DynamicSkill Insights leverages data analytics to empower job seekers with real-time, granular insights into evolving skill demands and employee perceptions, addressing gaps in traditional job market understanding.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/jobgpt.jpeg" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">JobGPT: Resume assistant</h5>
+                            <div class="post-details">
+                                <!-- <a href="javascript:void(0)"><i class="ti-file"></i> 456</a> -->
+                                <a href="https://github.com/rashmishreev/jobgpt-resume-assistant" target="_blank"><i class="ti-github"></i>Github</a>
+                            </div>
+                            <p>A resume optimization system using few-shot learning for GPT-3.5. This project addresses the need for personalized resume bullet points by leveraging the capabilities of GPT-3.5 turbo, streamlining the process of aligning resumes with specific job requirements in a dynamic job market.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/juvenile.jpeg" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Exploring the Correlation Between Parental Involvement and Juvenile Delinquency: A Data Analysis and Visualization Study</h5>
+                            <div class="post-details">
+                                <a href="https://drive.google.com/file/d/1_Q98gG2-Psz98ns-VnGDGLeg7mczDoUt/view?usp=drive_link" target="_blank"><i class="ti-file"></i> Report</a>
+                                <a href="https://github.com/rashmishreev/Juvenile-Delinquency-Data-Analysis-and-Visualization" target="_blank"><i class="ti-github"></i> Github</a>
+                            </div>
+                            <p> .... </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/nypd.jpeg" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Analyzing and Mitigating Gun Violence: A NoSQL Database-Driven Approach Using MongoDB and Neo4j on NYPD Shooting Incident Data</h5>
+                            <div class="post-details">
+                                <a href="https://drive.google.com/file/d/1zlGtKIMrr6F7PJaxdQJZynqmA1yPggq-/view?usp=drive_link" target="_blank"><i class="ti-file"></i> Report</a>
+                                <a href="https://github.com/rashmishreev/NoSQL-Approach-Using-MongoDB-and-Neo4j-on-NYPD-Shooting-Data" target="_blank"><i class="ti-github"></i> Github</a>
+                                <a href="https://medium.com/@sachinsm2022/accelerating-data-analytics-with-nosql-database-solutions-mongodb-and-neo4j-aa7f358d540" target="_blank"><i class="ti-pencil"></i> Blog</a>
+                            </div>
+                            <p>This project leverages New York City's open data on gun violence to develop solutions using NoSQL databases like MongoDB and Neo4j that provide insights to help the NYPD more effectively prevent and reduce shooting incidents across the city.</p>
+                            <!-- <a href="javascript:void(0)">Read More..</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Project Section -->
+
+    <!-- Testmonial Section -->
+    <section id="testmonial" class="section">
+        <div class="container text-center">
+            <h6 class="section-title mb-4">Experiences Working Together</h6>
+            <p class="mb-5 pb-4">Feedbacks from those who know me best</p>
+
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/1.png" alt="" style="width: 100%; height: auto;">
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                                <h1 class="title">Emma Re</h1>
+                                <h1 class="subtitle">Graphic Designer</h1> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/2.png" alt="" style="width: 100%; height: auto;">
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                                <h1 class="title">James Bert</h1>
+                                <h1 class="subtitle">Web Designer</h1> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/3.png" alt="" style="width: 100%; height: auto;">
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                                <h1 class="title">Michael Abra</h1>
+                                <h1 class="subtitle">Web Developer</h1> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/J4.png" alt="" style="width: 100%; height: auto;">
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                                <h1 class="title">James Bert</h1>
+                                <h1 class="subtitle">Web Designer</h1> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/L5.png" alt="" style="width: 100%; height: auto;">
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                                <h1 class="title">James Bert</h1>
+                                <h1 class="subtitle">Web Designer</h1> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of testmonial section -->
+
+
+    <!-- Certificates -->
+    <section id="certificates" class="section">
+        <div class="container text-center">
+            <!-- <h6 class="subtitle">Portfolio</h6> -->
+            <h6 class="section-title mb-4">Certificates</h6>
+            <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/nsls_cert.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Orientation and Leadership Training Certificate</h5>
+                                <a href="https://app.nsls.org/web/public/social/share/badge/5suXVCdTNv1Bb37oxPpN8z" target="_blank"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/lccp.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Leadership and Career Certificate Program</h5>
+                                <a href="https://drive.google.com/file/d/17tQmfONCFnpSovL-QJiqosY0M2ZqLmAy/view?usp=drive_link" target="_blank"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/nsls_foundations.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Foundations of Leadership Certificate</h5>
+                                <a href="https://app.nsls.org/web/public/social/share/badge/HBqPy4WHYBMyLNEKZ8kzn5" target="_blank"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/dbms_cert.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Best DBMS Course Project Award</h5>
+                                <a href="https://drive.google.com/file/d/1o9srs-N52hqlmQUzC_1oEgcD46sIyzYE/view?usp=drive_link" target="_blank"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-5.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-6.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End of certificates section -->
+
+    <!-- Hire me section -->
+    <section class="bg-gray p-0 section">
+        <!-- <div class="container">
+            <div class="card bg-primary">
+                <div class="card-body text-light">
+                    <div class="row align-items-center">
+                        <div class="col-sm-9 text-center text-sm-left">
+                            <h5 class="mt-3">Hire Me For Your Project</h5>
+                            <p class="mb-3">Accusantium labore nostrum similique quisquam.</p>
+                        </div>
+                        <div class="col-sm-3 text-center text-sm-right">
+                            <button class="btn btn-light rounded">Hire Me!</button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div> -->
+    </section>      
+    <!-- End od Hire me section. -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="position-relative section">
+        <div class="container text-center">
+            <h6 class="section-title mb-4">Get In Touch With Me</h6>
+            <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
+
+            <div class="contact text-left">
+                <div class="contact-infos">
+                    <div class="item">
+                        <i class="ti-linkedin"></i>
+                        <div>
+                            <h5>LinkedIn</h5>
+                            <a href="https://www.linkedin.com/in/rashmishreev/">Rashmi Shree Veeraiah</a>
+                        </div>                          
+                    </div>
+                    <div class="item">
+                        <i class="ti-email"></i>
+                        <div class="mb-0">
+                            <h5>Email Address</h5>
+                            <p>rashmishreeveeraiah@gmail.com</p>
+                        </div>
+                    </div>
+                </div>                  
+            </div>
+        </div>  
+    </section>
+    <!-- End of Contact Section -->
+
+    <!-- Page Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="http://www.devcrud.com" target="_blank">DevCRUD</a></p>
+                </div>
+                <!-- <div class="col-sm-6">
+                    <div class="socials">
+                        <a class="social-item" href="https://www.linkedin.com/in/rashmishreev/" target="_blank"><i class="ti-linkedin"></i></a>
+                        <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
+                        <a class="social-item" href="javascript:void(0)" target="_blank"><i class="ti-github"></i></a>
+                       <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a> 
+                    </div>
+                </div>  -->
+            </div>
+        </div>
+    </footer> 
+    <!-- End of page footer -->
+
+<!-- core  -->
+<script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+<script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+<!-- bootstrap 3 affix -->
+<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+<!-- steller js -->
+<script src="assets/js/steller.js"></script>
+
+
 </body>
 </html>
+
+
+
+<script>
+    function openResume() {
+        // Open the resume in a new window
+        var newWindow = window.open('https://drive.google.com/file/d/1k-H9K0NAIt5an2H3LRnpHe_FGkIUpVEd/view?usp=drive_link', '_blank');
+        
+        // Trigger the download in the new window
+        newWindow.document.addEventListener('DOMContentLoaded', function () {
+            var downloadLink = newWindow.document.createElement('a');
+            downloadLink.href = 'https://drive.google.com/file/d/1k-H9K0NAIt5an2H3LRnpHe_FGkIUpVEd/view?usp=drive_link';
+            downloadLink.download = 'https://drive.google.com/file/d/1k-H9K0NAIt5an2H3LRnpHe_FGkIUpVEd/view?usp=drive_link';
+            downloadLink.click();
+        });
+    }
+</script>
+
