@@ -597,13 +597,13 @@
 <script>
     function openResume() {
         // Open the resume in a new window
-        var newWindow = window.open('https://drive.google.com/file/d/1k-H9K0NAIt5an2H3LRnpHe_FGkIUpVEd/view?usp=drive_link', '_blank');
+        var newWindow = window.open('https://drive.google.com/file/d/1dPeFY8KFhtSKQCl4qluqraTxjLW0Lh1v/view?usp=drive_link', '_blank');
         
         // Trigger the download in the new window
         newWindow.document.addEventListener('DOMContentLoaded', function () {
             var downloadLink = newWindow.document.createElement('a');
-            downloadLink.href = 'https://drive.google.com/file/d/1k-H9K0NAIt5an2H3LRnpHe_FGkIUpVEd/view?usp=drive_link';
-            downloadLink.download = 'https://drive.google.com/file/d/1k-H9K0NAIt5an2H3LRnpHe_FGkIUpVEd/view?usp=drive_link';
+            downloadLink.href = 'https://drive.google.com/file/d/1dPeFY8KFhtSKQCl4qluqraTxjLW0Lh1v/view?usp=drive_link';
+            downloadLink.download = 'https://drive.google.com/file/d/1dPeFY8KFhtSKQCl4qluqraTxjLW0Lh1v/view?usp=drive_link';
             downloadLink.click();
         });
     }
